@@ -9,7 +9,7 @@ app.secret_key = os.urandom(24)
 db_host = 'db'
 db_port = '5432'
 db_name = 'postgres'
-db_user = 'postgres'
+db_user = 'myuser'
 db_password = 'postgres'
 
 

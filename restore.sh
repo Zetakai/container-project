@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration
-CONTAINER_NAME="db"  # Update this with the service name in your Docker Compose file
-DATABASE_USER="postgres"
+CONTAINER_NAME="container-project-db-1"  # Update this with the service name in your Docker Compose file
+DATABASE_USER="myuser"
 
 # Restore
 read -p "Enter the name of the backup file to restore (including path if necessary): " restore_file
